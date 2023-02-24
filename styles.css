@@ -23,8 +23,8 @@ body {
     flex-direction: row;
     flex-wrap: wrap;
 
-    height: 40%;
-    width: 30%;
+    max-height: 40%;
+    max-width: 30%;
     text-align: center;
     border-radius: 10%;
 
@@ -39,8 +39,16 @@ body {
 
 .main-link {
     color: #87FDAA;
-    padding: 0 5% 0 5%;
     font-family: 'Raleway';
+
+    width: 100%;
+}
+
+.bio {
+    font-family: 'Raleway';
+    padding-top: 10%;
+    padding-right: 10%;
+    padding-left: 10%;
 }
 
 .image-container {
@@ -49,6 +57,7 @@ body {
 }
 
 .profile-pic {
+    margin-top: 10%;
     border-radius: 50%;
     
 
@@ -81,13 +90,13 @@ body {
 }
 
 .portfolio-container {
-    width: 80%;
-    height: 60%;
+    max-width: 80%;
+    max-height: 60%;
     text-align: center;
     display: flex;
     justify-content: center;
     clear: both;
-    
+
 }
 
 .portfolio-item {
@@ -134,4 +143,5 @@ body {
 
 footer {
     color: white;
+    background-color: rgba(0, 0, 0, 0.3);
 }
