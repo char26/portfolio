@@ -139,6 +139,11 @@ body {
 
 .portfolio-item:hover {
     box-shadow: 0 5px 15px #87fdaaa0;
+    color: white;
+}
+
+.main-link:hover {
+    color: white;
 }
 
 footer {
