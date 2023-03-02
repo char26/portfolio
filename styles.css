@@ -135,12 +135,13 @@ a.portfolio-card {
 .portfolio-item {
     background-color: #87fdaaa0;
 
-
     flex: 1 0 auto;
     
     max-width: 20em;
     min-width: 20em;
-    height: 35%;
+
+    min-height: 20em;
+    max-height: 24em;
 
     text-align: center;
     align-content: center;
@@ -150,13 +151,14 @@ a.portfolio-card {
   }
 
 .img-1 {
-    height: 85%;
     width: 100%;
 }
 
 .title-1 {
     font-family: 'Raleway';
     font-size: 1em;
+
+    position: inherit;
 }
 
 .portfolio-item:hover {
