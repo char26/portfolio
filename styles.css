@@ -1,9 +1,20 @@
 /* hex for mint green: 87FDAA */
 
+html {
+    scroll-behavior: smooth;
+
+    overflow-y: scroll;
+}
+
 body {
     margin: 0;
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='2560' height='2880' preserveAspectRatio='none' viewBox='0 0 2560 2880'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1047%26quot%3b)' fill='none'%3e%3crect width='2560' height='2880' x='0' y='0' fill='rgba(22%2c 27%2c 24%2c 1)'%3e%3c/rect%3e%3cpath d='M640 396.19C330.96 379.92 170.84 687.58 0 581.82C-149.16 489.48 -152.38 138.53 0 0C167.62 -152.38 320 0 640 0C960 0 960 0 1280 0C1600 0 1600 0 1920 0C2240 0 2400 -160 2560 0C2720 160 2560 320 2560 640C2560 960 2560 960 2560 1280C2560 1600 2560 1600 2560 1920C2560 2240 2560 2240 2560 2560C2560 2880 2720 3040 2560 3200C2400 3360 2240 3200 1920 3200C1600 3200 1600 3200 1280 3200C960 3200 960 3200 640 3200C320 3200 160 3360 0 3200C-160 3040 0 2880 0 2560C0 2364.88 -38.1 2355.48 0 2169.76C27.54 2035.48 131.28 2043.27 131.28 1920C131.28 1807.09 25.1 1819.76 0 1697.39C-40.54 1499.76 0 1488.7 0 1280C0 980 -143.09 730.27 0 680C176.91 617.84 311.14 885.04 640 1055.14C891.14 1185.04 972.88 1101.98 1160 1280C1292.88 1406.41 1237.75 1664 1280 1664C1320.61 1664 1325.71 1470.17 1325.71 1280C1325.71 1198.17 1307.06 1198.64 1280 1120C1196.93 878.64 1263.18 818.39 1105.45 640C943.18 456.48 883.68 409.01 640 396.19' stroke='rgba(135%2c 253%2c 170%2c 1)' stroke-width='2'%3e%3c/path%3e%3cpath d='M1920 452.27C1714.97 452.27 1465.81 537.25 1465.81 640C1465.81 746.52 1721.37 870.82 1920 870.82C2030.33 870.82 2083.72 751.3 2083.72 640C2083.72 542.03 2023.92 452.27 1920 452.27' stroke='rgba(135%2c 253%2c 170%2c 1)' stroke-width='2'%3e%3c/path%3e%3cpath d='M1280 2036.36C1223.56 2036.36 1169.23 2313.72 1169.23 2560C1169.23 2634.32 1224.04 2677.55 1280 2677.55C1337.02 2677.55 1395.2 2635.3 1395.2 2560C1395.2 2314.7 1336.54 2036.36 1280 2036.36' stroke='rgba(135%2c 253%2c 170%2c 1)' stroke-width='2'%3e%3c/path%3e%3cpath d='M640 142.22C409.14 142.22 168.42 36.33 168.42 0C168.42 -34.78 404.21 0 640 0C794.49 0 948.97 -33.85 948.97 0C948.97 37.26 799.42 142.22 640 142.22' stroke='rgba(135%2c 253%2c 170%2c 1)' stroke-width='2'%3e%3c/path%3e%3cpath d='M1920 238.93C1738.17 87.11 1503.26 63.97 1503.26 0C1503.26 -55.5 1711.63 0 1920 0C2114.78 0 2134.33 -55.34 2309.57 0C2454.33 45.71 2506.96 66.56 2560 202.11C2632.17 386.56 2560 421.06 2560 640C2560 855.17 2625.78 1070.34 2560 1070.34C2480.66 1070.34 2427.78 845.26 2269.77 640C2107.78 429.56 2121.43 407.11 1920 238.93' stroke='rgba(135%2c 253%2c 170%2c 1)' stroke-width='2'%3e%3c/path%3e%3cpath d='M0 1180C64.06 1180 188.24 1236.33 188.24 1280C188.24 1321.12 69.89 1349.57 0 1349.57C-24.23 1349.57 0 1314.78 0 1280C0 1230 -30.06 1180 0 1180' stroke='rgba(135%2c 253%2c 170%2c 1)' stroke-width='2'%3e%3c/path%3e%3cpath d='M1706.67 1280C1706.67 1183.21 1809.4 1133.11 1920 1133.11C2051.82 1133.11 2057.74 1203.08 2191.52 1280C2377.74 1387.07 2466.71 1339.05 2560 1501.09C2650.95 1659.05 2560 1710.55 2560 1920C2560 2240 2560 2240 2560 2560C2560 2880 2705.96 3025.96 2560 3200C2437.58 3345.96 2261.52 3256.74 2023.23 3200C1941.52 3180.55 1959.76 3130.23 1920 3047.62C1805.75 2810.23 1715.2 2798.81 1715.2 2560C1715.2 2365.37 1815.56 2369.24 1920 2180.74C1992.86 2049.24 2069.79 2051.59 2069.79 1920C2069.79 1780.42 1998.68 1777.07 1920 1638.4C1817.12 1457.07 1706.67 1435.86 1706.67 1280' stroke='rgba(135%2c 253%2c 170%2c 1)' stroke-width='2'%3e%3c/path%3e%3cpath d='M336.41 1920C477.57 1672.24 473.21 1436.73 640 1436.73C822.34 1436.73 980.97 1647.7 1034.67 1920C1091.74 2209.34 797.66 2277.73 861.54 2560C920.33 2819.77 1037.13 2831.08 1280 3004.08C1486.36 3151.08 1760 3149.13 1760 3200C1760 3247.09 1520 3200 1280 3200C960 3200 960 3200 640 3200C320 3200 160 3360 0 3200C-160 3040 0 2880 0 2560C0 2560 0 2560 0 2560C168.21 2240 157.57 2233.88 336.41 1920' stroke='rgba(135%2c 253%2c 170%2c 1)' stroke-width='2'%3e%3c/path%3e%3cpath d='M1920 25.6C1897.86 25.6 1875.35 6.85 1875.35 0C1875.35 -5.95 1897.68 0 1920 0C1940.87 0 1961.74 -5.89 1961.74 0C1961.74 6.91 1941.06 25.6 1920 25.6' stroke='rgba(135%2c 253%2c 170%2c 1)' stroke-width='2'%3e%3c/path%3e%3cpath d='M2455.81 640C2455.81 561.61 2531.59 482.81 2560 482.81C2583.68 482.81 2560 561.4 2560 640C2560 717.24 2583.61 794.48 2560 794.48C2531.52 794.48 2455.81 717.45 2455.81 640' stroke='rgba(135%2c 253%2c 170%2c 1)' stroke-width='2'%3e%3c/path%3e%3cpath d='M541.54 1920C541.54 1833.64 585.91 1763.27 640 1763.27C699.14 1763.27 768 1829.39 768 1920C768 2109.86 697.15 2324.21 640 2324.21C583.92 2324.21 541.54 2114.11 541.54 1920' stroke='rgba(135%2c 253%2c 170%2c 1)' stroke-width='2'%3e%3c/path%3e%3cpath d='M2410.21 1920C2410.21 1846.53 2514.6 1792 2560 1792C2589.49 1792 2560 1856 2560 1920C2560 2026.66 2593.71 2133.33 2560 2133.33C2518.81 2133.33 2410.21 2017.2 2410.21 1920' stroke='rgba(135%2c 253%2c 170%2c 1)' stroke-width='2'%3e%3c/path%3e%3cpath d='M0 3044.85C258.98 3044.85 640 3160.66 640 3200C640 3238.23 257.56 3262.44 0 3200C-62.44 3184.86 -61.02 3044.85 0 3044.85' stroke='rgba(135%2c 253%2c 170%2c 1)' stroke-width='2'%3e%3c/path%3e%3cpath d='M2539.35 3200C2539.35 3191.28 2554.27 3172.17 2560 3172.17C2564.6 3172.17 2565.93 3192.01 2560 3200C2555.6 3205.93 2539.35 3205.2 2539.35 3200' stroke='rgba(135%2c 253%2c 170%2c 1)' stroke-width='2'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1047'%3e%3crect width='2560' height='2880' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
     background-size: cover;
+}
+
+a.portfolio-card {
+    text-decoration: none;
+    color: black;
 }
 
 .top {
@@ -25,6 +36,7 @@ body {
 
     max-height: max-content;
     max-width: 30%;
+
     text-align: center;
     border-radius: 10%;
 
@@ -34,14 +46,31 @@ body {
     background-color: rgba(0, 0, 0, 0.3);
 
     padding-top: 0;
-    padding-bottom: 5%;
+    padding-bottom: 2%;
+}
+
+.pf-link {
+    color: #87FDAA;
+    font-family: 'Raleway';
+
+    font-size: 175%;
+    width: 100%;
+
+    text-decoration:none
+}
+
+.pf-link:hover {
+    color: white;
+}
+
+.fa-link-container {
+    padding-top: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 .main-link {
     color: #87FDAA;
-    font-family: 'Raleway';
-
-    width: 100%;
 }
 
 .bio {
@@ -69,6 +98,7 @@ body {
 
 .bottom {
     height: 100%;
+    max-height: max-content;
     width: 100%;
     position: relative;
     display: flex;
@@ -80,61 +110,51 @@ body {
     flex-grow: 2;
 }
 
-.portfolio-div {
-    position: relative;
-}
-
 .portfolio-title {
     color: #87FDAA;
     font-family: 'Pacifico';
 }
 
 .portfolio-container {
-    max-width: 80%;
-    max-height: 60%;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    clear: both;
+    width: 90%;
+    height: 80%;
+    max-height: max-content;
 
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: flex-start;
+
+    row-gap: 5%;
+    column-gap: 5%;
+
+    overflow: auto;
 }
 
 .portfolio-item {
     background-color: #87fdaaa0;
-    height: 100%;
-    width: 50%;
-    border-radius: 10%;
-    border-color: black;
-    border-style: solid;
 
-    display: flex;
-    flex-direction: column;
 
-    position: relative;
+    flex: 1 0 auto;
     
-  }
+    max-width: 20em;
+    min-width: 20em;
+    height: 35%;
 
-.link {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    z-index: 1;
-}
+    text-align: center;
+  }
 
 .img-1 {
     height: 85%;
     width: 100%;
-    border-top-right-radius: 10%;
-    border-top-left-radius: 10%;
-    
 }
 
 .title-1 {
     font-family: 'Raleway';
     margin-top: auto;
     margin-bottom: auto;
+    font-size: 1em;
 }
 
 .portfolio-item:hover {
@@ -156,3 +176,18 @@ footer {
         font-size: 15px;
     }
 }
+
+@media only screen and (max-width: 1100px) {
+    .center-panel {
+        height: max-content;
+        max-width: 60%;
+    }
+}
+
+@media only screen and (min-width: 1450px) {
+    .portfolio-container {
+        width: 80em;
+    }
+}
+
+
