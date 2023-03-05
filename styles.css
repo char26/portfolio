@@ -49,12 +49,15 @@ a.portfolio-card {
     padding-bottom: 2%;
 }
 
+.pf-link-container {
+    width: 100%;
+} 
+
 .pf-link {
     color: #87FDAA;
     font-family: 'Raleway';
 
     font-size: 175%;
-    width: 100%;
 
     text-decoration:none
 }
